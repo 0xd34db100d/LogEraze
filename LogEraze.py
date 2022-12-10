@@ -12,12 +12,8 @@ from shutil import rmtree
 
 windll.kernel32.SetConsoleTitleW("LogEraze")
 colorama.init()
-# CONFIG
-sleeptime = 2
-DeleteTemp = True
+
 # FUNCTIONS
-
-
 def get_subs(a):
     return [name for name in listdir(a)
             if path.isdir(path.join(a, name))]
@@ -191,7 +187,6 @@ TempFolder = path.join(*TempFolder)
 print(colorama.Fore.MAGENTA + "[SUCCESS] Found all we need!")
 
 # MAIN
-sleep(sleeptime)
 while True:
     Welcome()
     k = ""
