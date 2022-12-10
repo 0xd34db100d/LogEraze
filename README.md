@@ -1,0 +1,2 @@
+# LogEraze
+Roblox logs cleaner
